@@ -1,6 +1,6 @@
 resource "aws_key_pair" "this" {
   key_name = "terraform-key"
-  public_key = file("./terraform-key.pub")
+  public_key = file(var.aws_pub_key)
 }
 
 resource "aws_instance" "vm" {
