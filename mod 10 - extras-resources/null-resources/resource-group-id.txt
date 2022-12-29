@@ -1,0 +1,1 @@
+Resource Group ID: /subscriptions/9fed5599-5fd8-484b-b7d3-c3b5e410b6e6/resourceGroups/null-resource
