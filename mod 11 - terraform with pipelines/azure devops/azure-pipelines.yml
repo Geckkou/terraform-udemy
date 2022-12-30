@@ -56,7 +56,7 @@ stages:
               ARM_CLIENT_SECRET: $(ARM_CLIENT_SECRET)
               TF_VAR_aws_pub_key: $(aws_pub_key.secureFilePath)
               TF_VAR_azure_pub_key: $(azure_pub_key.secureFilePath)
-          - publish: $(Build.SourceDirectory)/plan.out
+          - publish: $(Build.SourcesDirectory)/plan.out
             artifact: plan
             displayName: Publish Plan
 
